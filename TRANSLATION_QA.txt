@@ -1,0 +1,11 @@
+TWB V5 multilingual QA
+
+Fixed:
+- English now restores fully after switching from Russian/Uzbek.
+- V4 premium Equipment section now changes language.
+- Hero PEOPLE/PARTNERSHIPS/PROGRESS and handwritten slogan now change language.
+- Equipment catalog names, descriptions and request buttons now change language.
+- Missing Uzbek service, industry, poultry, finance, turnkey and partner labels added.
+- Search placeholder and form text remain language-aware.
+
+HTML translatable keys detected: 131
