@@ -1,0 +1,13 @@
+TWB Website V8.3 — Equipment Catalog Photo Upgrade
+
+Upload ALL files in this folder to the ROOT of:
+twb2024/tradewithbuxara
+
+This version:
+- replaces catalog emoji icons with 12 local professional equipment photos;
+- keeps EN/RU/UZ catalog text and filtering;
+- keeps all existing TWB sections and contacts;
+- stabilizes the top navigation at the top of the page;
+- uses local images (no external image hosting for these catalog cards).
+
+After commit, wait 1–3 minutes and press Ctrl+F5.
