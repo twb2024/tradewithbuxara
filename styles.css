@@ -150,3 +150,41 @@ footer{background:#02182d;color:white;padding:38px 0 20px}.footer-grid{display:g
   .firm-handshake{min-height:270px!important}
   .professional-industries{grid-template-columns:1fr!important}
 }
+
+/* =============================================================
+   TWB V8.2 — FINAL SMALL VISUAL FIX
+   1) Restore visible labels on outline hero buttons on white background.
+   2) Show the complete handshake artwork without cropping the right-side text.
+   No other sections are changed.
+   ============================================================= */
+.hero .btn.outline{
+  color:#0b2a4a!important;
+  border-color:#8ea4b6!important;
+  background:#ffffff!important;
+  box-shadow:0 2px 8px rgba(7,35,62,.05)!important;
+}
+.hero .btn.outline:hover{
+  color:#ffffff!important;
+  background:#0b2a4a!important;
+  border-color:#0b2a4a!important;
+}
+.hero-visual-firm{
+  aspect-ratio:3/2!important;
+  height:auto!important;
+  min-height:0!important;
+  background:#eef3f7!important;
+}
+.firm-handshake{
+  width:100%!important;
+  height:100%!important;
+  min-height:0!important;
+  object-fit:contain!important;
+  object-position:center center!important;
+}
+@media(max-width:980px){
+  .hero-visual-firm{aspect-ratio:3/2!important;height:auto!important;min-height:0!important}
+}
+@media(max-width:600px){
+  .hero-visual-firm{display:block!important;aspect-ratio:3/2!important;height:auto!important;min-height:0!important}
+  .firm-handshake{height:100%!important;min-height:0!important;object-fit:contain!important}
+}

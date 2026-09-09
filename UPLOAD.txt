@@ -1,0 +1,3 @@
+TWB V8.2 FINAL SMALL FIX
+Upload ONLY styles.css to the root of the existing GitHub repository and replace the current styles.css.
+No other file needs to be changed.
