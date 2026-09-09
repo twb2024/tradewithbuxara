@@ -109,3 +109,44 @@ footer{background:#02182d;color:white;padding:38px 0 20px}.footer-grid{display:g
   .equipment-feature-copy h2{font-size:30px}
   .equipment-feature-side{padding:45px 22px}
 }
+
+
+/* =============================================================
+   TWB V8 — VISUAL RELIABILITY FIX
+   Uses ordinary local <img> files instead of data URIs/backgrounds.
+   This makes hero/industry visuals render in normal browsing AND PDF/print.
+   ============================================================= */
+.hero{background:linear-gradient(180deg,#fff 0%,#fbfcfd 100%)!important;color:#0b2a4a!important}
+.hero p{color:#617387!important}
+.hero h3{color:#667788!important}
+.hero-grid{min-height:560px}
+.hero-visual-firm{background:#eef3f7!important;overflow:hidden!important;border:1px solid #e6d7a8!important;min-height:410px!important}
+.firm-handshake{display:block!important;width:100%!important;height:100%!important;min-height:410px!important;object-fit:cover!important;object-position:center center!important;opacity:1!important;visibility:visible!important;position:absolute!important;inset:0!important;z-index:1!important}
+.firm-overlay{position:absolute!important;inset:0!important;z-index:2!important;pointer-events:none!important;background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(4,25,47,.22))!important}
+.hero-values,.hero-script,.hero-script-line{z-index:3!important}
+.hero-services{border-top:1px solid #ccd7df!important}
+.hero-services div{border-right:1px solid #ccd7df!important}
+.hero-services b{color:#173a5c!important}.hero-services span{color:#718395!important}
+
+.professional-industries{grid-template-columns:repeat(4,1fr)!important}
+.professional-industries article{background:#fff!important;overflow:hidden!important}
+.professional-industries .photo-thumb{display:block!important;width:100%!important;height:190px!important;min-height:190px!important;object-fit:cover!important;object-position:center!important;background:none!important;font-size:0!important;opacity:1!important;visibility:visible!important}
+.professional-industries .photo-thumb:after{display:none!important}
+.industry-photo-img{border:0!important;border-radius:0!important}
+
+/* Make all key visuals print reliably when user saves page as PDF */
+@media print{
+  *{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}
+  .firm-handshake,.industry-photo-img{display:block!important;opacity:1!important;visibility:visible!important}
+  .hero-visual-firm{display:block!important}
+}
+
+@media(max-width:980px){
+  .professional-industries{grid-template-columns:repeat(2,1fr)!important}
+}
+@media(max-width:600px){
+  .hero-visual{display:block!important;height:270px!important;min-height:270px!important}
+  .hero-visual-firm{min-height:270px!important}
+  .firm-handshake{min-height:270px!important}
+  .professional-industries{grid-template-columns:1fr!important}
+}
