@@ -1,0 +1,111 @@
+
+:root{--navy:#032a4f;--navy2:#061c33;--gold:#d8ac46;--gold2:#f2d379;--ink:#102a45;--muted:#687a8b;--soft:#f4f7f8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:white}.wrap{max-width:1180px;margin:auto;padding-left:24px;padding-right:24px}.topbar{position:sticky;top:0;z-index:100;background:rgba(3,42,79,.98);border-bottom:1px solid rgba(216,172,70,.55)}.nav{height:78px;display:flex;align-items:center;gap:19px}.brand{display:flex;align-items:center;gap:9px;color:var(--gold2);text-decoration:none;font-family:Georgia,serif;white-space:nowrap}.brandmark{font:700 34px Georgia;color:var(--gold2)}.brandtext{font-size:12px;letter-spacing:.4px}.brandtext small{display:block;color:#fff;font:7.5px Arial;letter-spacing:1.4px;margin-top:4px}nav{display:flex;gap:14px;margin-left:auto}nav a{color:#fff;text-decoration:none;text-transform:uppercase;font-size:10px;font-weight:700}.language{display:flex}.lang{background:transparent;border:0;color:#aebfcd;font-size:10px;cursor:pointer}.lang.active{color:var(--gold2);font-weight:bold}.btn{display:inline-block;text-decoration:none;border:0;border-radius:4px;padding:13px 18px;font-size:11px;font-weight:800;cursor:pointer}.gold{background:linear-gradient(135deg,var(--gold2),var(--gold));color:#07233e}.outline{border:1px solid #b7cad8;color:white}.navy{background:var(--navy);color:white}.mobile-menu{display:none;background:none;border:0;color:white;font-size:23px}
+.hero,.dark{background:linear-gradient(135deg,#061b31,#07416e);color:white}.hero{border-bottom:4px solid var(--gold)}.hero-grid{min-height:535px;display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:38px}.eyebrow,.kicker{font-size:11px;font-weight:800;letter-spacing:2px}.eyebrow,.goldtext{color:var(--gold2)}h1{font:700 50px/1.04 Georgia,serif;margin:16px 0}h1 em{font-style:normal;color:var(--gold2)}.hero h3{font:20px Georgia,serif;font-weight:normal}.hero p{color:#d0dee8;line-height:1.6;max-width:650px}.hero-actions{display:flex;gap:11px;flex-wrap:wrap;margin-top:24px}.hero-visual{height:390px;position:relative;overflow:hidden}
+.hero-visual-firm{border-radius:56% 6% 44% 14%;border:1px solid rgba(242,211,121,.42);box-shadow:0 18px 50px rgba(0,10,24,.32);background:#061b31}
+.firm-handshake{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:58% center;filter:saturate(1.02) contrast(1.02)}
+.firm-overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,27,49,.58) 0%,rgba(6,27,49,.06) 38%,rgba(6,27,49,.00) 67%,rgba(6,27,49,.27) 100%);pointer-events:none}
+.cityline{position:absolute;bottom:18px;right:18px;text-align:right;color:#f0cf70;text-shadow:0 2px 10px rgba(0,0,0,.45)}
+.cityline span{display:block;font:21px Georgia}.cityline b{font-size:35px;letter-spacing:3px}
+.brand-note{font-size:10px;font-weight:700;letter-spacing:2px;color:#d9c177;margin-top:12px}.brand-note span{color:#fff;opacity:.45;margin:0 6px}.hero-services{display:grid;grid-template-columns:repeat(5,1fr);padding-top:16px;padding-bottom:18px;border-top:1px solid #315a77}.hero-services div{text-align:center;border-right:1px solid #3a607c}.hero-services div:last-child{border:0}.hero-services i{display:block;color:var(--gold2);font-style:normal;font-size:25px}.hero-services b,.hero-services span{display:block;font-size:11px;margin-top:4px}.hero-services span{font-size:9px;color:#aebfca}
+.section{padding-top:66px;padding-bottom:66px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:35px;margin-bottom:28px}.section-head h2,.sourcing h2,.rfq h2{font:700 33px Georgia,serif;margin:7px 0}.section-head p{max-width:520px;color:#607385;line-height:1.6}.kicker{color:#0d4f84}.industry-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.industry-grid article{border:1px solid #dde4e9;border-radius:8px;overflow:hidden;box-shadow:0 4px 18px #0625400b;background:#fff}.thumb{height:130px;display:flex;align-items:center;justify-content:center;font-size:56px}.poultry-bg{background:linear-gradient(135deg,#fff0d8,#d67d45)}.agri-bg{background:linear-gradient(135deg,#e9f3d8,#729b42)}.food-bg{background:linear-gradient(135deg,#e4eaee,#728595)}.industry-bg{background:linear-gradient(135deg,#e1e6ea,#d09b32)}.energy-bg{background:linear-gradient(135deg,#fff7cc,#e5b43d)}.cold-bg{background:linear-gradient(135deg,#e0f6ff,#6aa9c9)}.industry-grid h3,.industry-grid p{margin-left:16px;margin-right:16px}.industry-grid p{font-size:12px;line-height:1.55;color:#5d7182;min-height:38px;margin-bottom:17px}
+.poultry-section{background:linear-gradient(135deg,#071e37,#0b4a79);color:white;padding:65px 0}.light p{color:#ccd9e3}.poultry-flow{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}.poultry-flow div{border:1px solid #315c7c;border-radius:7px;padding:17px;background:#082a49}.poultry-flow span{color:var(--gold2);font:22px Georgia}.poultry-flow b,.poultry-flow small{display:block;margin-top:8px}.poultry-flow small{font-size:10px;color:#aebfcd;line-height:1.4}.poultry-cta{margin-top:20px;display:flex;justify-content:space-between;align-items:center;border-top:1px solid #315c7c;padding-top:20px}.poultry-cta b,.poultry-cta span{display:block}.poultry-cta span{font-size:12px;color:#b9c9d4;margin-top:4px}
+.catalog-tools{display:flex;gap:12px;margin-bottom:18px}.catalog-tools input,.catalog-tools select{padding:12px;border:1px solid #cad5dd;border-radius:5px;font:13px Arial}.catalog-tools input{flex:1}.equipment-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.equipment-card{border:1px solid #dce4e9;border-radius:7px;background:white;padding:16px}.equipment-icon{height:70px;border-radius:5px;background:#f3f6f8;display:flex;align-items:center;justify-content:center;font-size:37px}.equipment-card h3{font-size:14px;margin-bottom:7px}.equipment-card p{font-size:11px;line-height:1.5;color:#637687;min-height:48px}.equipment-card button{background:none;border:0;padding:0;color:#0b4c80;font-weight:bold;cursor:pointer;font-size:11px}
+.sourcing-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:45px;align-items:center;padding-top:60px;padding-bottom:60px}.sourcing p,.rfq p{color:#c7d6e1;line-height:1.6}.region-chips{display:flex;gap:7px;flex-wrap:wrap;margin-top:20px}.region-chips span{font-size:10px;border:1px solid #668098;border-radius:4px;padding:8px 10px}.world-card{height:250px;border:1px solid #315b7b;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--gold2);font-size:70px}.world-card b{font-size:13px;letter-spacing:2px;color:white}.world-card small{font-size:10px;color:#afc1cf;max-width:250px;text-align:center;margin-top:7px;line-height:1.5}
+.finance-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.finance-grid article{border:1px solid #dde4e9;border-radius:7px;padding:18px}.finance-grid i{font:24px Georgia;color:var(--gold);font-style:normal}.finance-grid h3{font-size:13px}.finance-grid p{font-size:11px;line-height:1.5;color:#667989}.finance-box{display:flex;justify-content:space-between;align-items:center;background:#f1f5f7;border-left:4px solid var(--gold);padding:16px 18px;margin-top:18px}.finance-box b,.finance-box span{display:block}.finance-box span{font-size:11px;color:#687a89;margin-top:4px}.legal{font-size:9.5px;color:#758593;margin-top:16px}
+.soft{background:#f4f7f8}.timeline{display:flex;align-items:center;gap:8px}.timeline div{flex:1;text-align:center;border:1px solid #dbe3e8;background:white;border-radius:6px;padding:13px 8px}.timeline span{display:block;color:var(--gold);font:20px Georgia}.timeline b{font-size:10px}.timeline i{font-style:normal;color:#c99d3f}.project-types{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.project-types span{font-size:10px;padding:8px 11px;border:1px solid #cbd5dd;background:white;border-radius:4px}
+.partner-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.partner-grid div{text-align:center;padding:25px;border:1px solid #dde4e9;font-size:28px;color:var(--gold)}.partner-grid b{display:block;color:var(--ink);font-size:12px;margin-top:10px}
+.rfq{padding:65px 0}.rfq-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px}.contact-card{display:flex;flex-direction:column;gap:7px;border-left:3px solid var(--gold);padding-left:16px;margin-top:25px}.contact-card span{font-size:11px;color:#d2dee7}.rfq form{background:white;color:var(--ink);border-radius:8px;padding:25px;display:grid;gap:13px}.rfq label{font-size:11px;font-weight:bold}.rfq input,.rfq textarea,.rfq select{width:100%;padding:11px;border:1px solid #cad5dd;border-radius:4px;margin-top:5px;font:13px Arial}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:11px}.upload input{padding:8px;background:#f7f9fa}#formMessage{color:#3c744f}.whatsapp{position:fixed;right:18px;bottom:18px;z-index:80;background:#1f9d55;color:white;text-decoration:none;border-radius:30px;padding:13px 17px;font-weight:bold;font-size:12px;box-shadow:0 8px 24px #0003}
+footer{background:#02182d;color:white;padding:38px 0 20px}.footer-grid{display:grid;grid-template-columns:1.25fr 1fr 1fr 1.4fr;gap:25px}.footer-grid>div{display:flex;flex-direction:column;gap:6px;font-size:11px}.footbrand b{color:var(--gold2);font-family:Georgia}.footbrand small{font-size:7px;letter-spacing:1.2px}.footer-grid span{color:#aebdca}.copyright{border-top:1px solid #29455d;margin-top:25px;padding-top:14px;color:#8fa4b5;font-size:9px}
+@media(max-width:980px){nav{display:none}.mobile-menu{display:block}.navquote{display:none}.language{margin-left:auto}.hero-grid,.sourcing-grid,.rfq-grid{grid-template-columns:1fr}.hero-visual{height:260px}.hero-services{grid-template-columns:repeat(3,1fr)}.industry-grid{grid-template-columns:repeat(2,1fr)}.poultry-flow{grid-template-columns:repeat(3,1fr)}.equipment-grid{grid-template-columns:repeat(2,1fr)}.finance-grid{grid-template-columns:repeat(2,1fr)}.partner-grid{grid-template-columns:repeat(2,1fr)}.timeline{flex-wrap:wrap}.timeline i{display:none}.timeline div{min-width:30%}.footer-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){.wrap{padding-left:16px;padding-right:16px}.brandtext{display:none}.hero-grid{min-height:auto;padding-top:45px;padding-bottom:30px}.hero-visual{display:none}h1{font-size:37px}.hero-services,.industry-grid,.poultry-flow,.equipment-grid,.finance-grid,.partner-grid,.footer-grid{grid-template-columns:1fr}.hero-services div{border-right:0;border-bottom:1px solid #315a77;padding:8px}.section-head{display:block}.section{padding-top:48px;padding-bottom:48px}.poultry-cta,.finance-box{display:block}.poultry-cta .btn,.finance-box .btn{margin-top:12px}.catalog-tools{display:block}.catalog-tools select{width:100%;margin-top:8px}.form-row{grid-template-columns:1fr}.timeline div{min-width:45%}}
+
+#partners{position:relative;overflow:hidden}
+#partners:after{
+  content:"";position:absolute;right:-30px;bottom:-80px;width:390px;height:300px;
+  background:url("assets/twb_bukhara_letterhead.jpg") center/cover no-repeat;
+  opacity:.08;filter:grayscale(1);pointer-events:none;z-index:-1
+}
+@media(max-width:600px){
+  .hero-visual-firm{display:block;height:255px;border-radius:18px;margin-bottom:20px}
+  .firm-handshake{object-position:61% center}
+  .cityline{display:none}
+}
+
+/* TWB V4 premium visual corrections */
+.hero-visual-firm{
+  border-radius:8px 8px 80px 8px;
+  min-height:410px;
+  box-shadow:0 24px 55px rgba(0,8,20,.38);
+}
+.firm-handshake{object-position:56% 50%}
+.firm-overlay{
+  background:
+    linear-gradient(90deg,rgba(3,22,42,.40) 0%,rgba(3,22,42,.02) 44%,rgba(3,22,42,.16) 100%),
+    linear-gradient(0deg,rgba(3,22,42,.50) 0%,rgba(3,22,42,0) 45%);
+}
+.hero-values{
+  position:absolute;right:24px;top:26px;z-index:3;
+  color:#fff;font:700 12px/1.75 Georgia,serif;letter-spacing:2.2px;
+  text-align:right;text-shadow:0 2px 10px rgba(0,0,0,.75);
+}
+.hero-values:after{content:"";display:block;width:48px;height:2px;background:#d8ad4a;margin:8px 0 0 auto}
+.hero-script{
+  position:absolute;right:28px;bottom:44px;z-index:3;transform:rotate(-6deg);
+  color:#fff;font:italic 25px/1.0 "Segoe Script","Brush Script MT",cursive;
+  text-align:right;text-shadow:0 2px 12px rgba(0,0,0,.85);
+}
+.hero-script span{font-size:22px}
+.hero-script-line{
+  position:absolute;right:24px;bottom:28px;width:150px;height:3px;z-index:3;
+  background:linear-gradient(90deg,transparent,#e4b94f 30%,#f0d27d);
+  transform:rotate(-6deg);border-radius:3px;
+}
+
+/* Professional photographic industry cards */
+.professional-industries{grid-template-columns:repeat(4,1fr)}
+.photo-thumb{height:190px;background-position:center;background-size:cover;position:relative}
+.photo-thumb:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(3,25,47,.30),transparent 58%)}
+.poultry-photo{background-image:url("https://media.vneconomy.vn/images/upload/2024/05/04/chan-nuoi-hien-dai.jpg")}
+.agri-photo{background-image:url("https://www.deere.hu/assets/images/region-2/products/tractors/mid/6m-series/large-proven-tractor.jpg")}
+.food-photo{background-image:url("https://www.sensear.com/hs-fs/hubfs/FOOD%20PROCESSING%20INDUSTRY/Food%20Processing%2002.jpg?name=Food+Processing+02.jpg&width=1200")}
+.industry-photo{background-image:url("https://automatykab2b.pl/i/images/0/0/6/d2FjPTEwNzZ4MS43ODA%3D_src_173006-foeth.jpg")}
+.professional-industries article{transition:transform .22s ease,box-shadow .22s ease}
+.professional-industries article:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(4,30,54,.13)}
+
+/* Premium equipment/technology band */
+.equipment-feature{display:grid;grid-template-columns:1.65fr .85fr;background:#061d35;color:white;min-height:390px}
+.equipment-feature-photo{
+  position:relative;min-height:390px;
+  background:url("https://automatykab2b.pl/i/images/0/0/6/d2FjPTEwNzZ4MS43ODA%3D_src_173006-foeth.jpg") center/cover no-repeat;
+}
+.equipment-feature-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,23,43,.94),rgba(3,23,43,.62) 48%,rgba(3,23,43,.18))}
+.equipment-feature-copy{position:relative;z-index:2;padding-top:72px;padding-bottom:62px}
+.equipment-feature-copy h2{font:700 37px/1.08 Georgia,serif;margin:10px 0 16px;max-width:610px}
+.equipment-feature-copy p{max-width:610px;color:#d5e0e8;line-height:1.65;margin-bottom:22px}
+.equipment-feature-side{padding:65px 44px;background:linear-gradient(145deg,#082845,#041a30)}
+.equipment-feature-side h3{font:700 29px Georgia,serif;margin:9px 0}
+.equipment-feature-side p{color:#c8d7e1;line-height:1.6;font-size:13px}
+.equipment-feature-side .region-chips{margin:22px 0}
+.equipment-feature-side .region-chips span{border-color:#8da1b2}
+
+/* Improve overall polish */
+.industry-grid article,.equipment-card,.finance-grid article{border-color:#d7e0e6}
+.section-head h2{color:#082d54}
+.topbar{box-shadow:0 6px 22px rgba(0,10,25,.16)}
+.btn{letter-spacing:.2px}
+@media(max-width:980px){
+  .professional-industries{grid-template-columns:repeat(2,1fr)}
+  .equipment-feature{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+  .professional-industries{grid-template-columns:1fr}
+  .hero-visual-firm{height:300px;min-height:300px}
+  .hero-values{font-size:10px;right:14px;top:14px}
+  .hero-script{right:16px;bottom:36px;font-size:20px}
+  .hero-script span{font-size:18px}
+  .hero-script-line{right:14px;bottom:22px;width:120px}
+  .equipment-feature-copy{padding-top:50px;padding-bottom:45px}
+  .equipment-feature-copy h2{font-size:30px}
+  .equipment-feature-side{padding:45px 22px}
+}
