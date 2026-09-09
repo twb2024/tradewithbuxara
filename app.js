@@ -1,4 +1,18 @@
 
+// TWB V7: remove tracking parameters (including utm_source=chatgpt.com) from the visible URL
+(function(){
+  try {
+    const u = new URL(window.location.href);
+    const tracking = ['utm_source','utm_medium','utm_campaign','utm_term','utm_content','gclid','fbclid'];
+    let changed = false;
+    tracking.forEach(k => { if (u.searchParams.has(k)) { u.searchParams.delete(k); changed = true; } });
+    if (changed) {
+      const clean = u.pathname + (u.searchParams.toString() ? '?' + u.searchParams.toString() : '') + u.hash;
+      history.replaceState(null, document.title, clean);
+    }
+  } catch(e) {}
+})();
+
 const equipment = [
  {cat:"poultry",icon:"🐔",en:["Broiler House Systems","Housing, feeding, drinking, climate and automation solutions."],ru:["Системы для бройлерных птичников","Содержание, кормление, поение, климат и автоматизация."],uz:["Broyler parrandaxona tizimlari","Saqlash, oziqlantirish, sug‘orish, iqlim va avtomatlashtirish yechimlari."]},
  {cat:"poultry",icon:"🥚",en:["Layer Cage Systems","Layer housing, egg collection, manure removal and climate systems."],ru:["Клеточные системы для несушек","Содержание несушек, сбор яиц, удаление помёта и климатические системы."],uz:["Tuxumchi tovuqlar uchun qafas tizimlari","Tuxumchi tovuqlarni saqlash, tuxum yig‘ish, go‘ng chiqarish va iqlim tizimlari."]},
